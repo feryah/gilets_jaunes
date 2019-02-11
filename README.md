@@ -10,7 +10,7 @@ Ce projet a pour but le repérage et l'identification de thèmes transversaux da
  
 Langues et pays traités :
   - français (Canada/Suisse/Belgique/Algérie)
-  - anglais (Royaume-Uni/États-Unis)
+  - anglais (Royaume-Uni/Irlande/États-Unis)
   - espagnol (Espagne)
   - italien (Italie)
   - arabe (Libye)

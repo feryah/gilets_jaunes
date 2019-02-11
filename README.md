@@ -9,8 +9,13 @@ Cours de Mathieu Valette
 Ce projet a pour but le repérage et l'identification de thèmes transversaux dans le traitement du mouvement social et/ou insurrectionnel des "gilets jaunes", se déroulant en France depuis novembre 2018, dans la presse internationale.
  
 Langues et pays traités :
-  - anglais (britannique/américain)
-  - (à compléter)
+  - français (Canada/Suisse/Belgique/Algérie)
+  - anglais (Royaume-Uni/États-Unis)
+  - espagnol (Espagne)
+  - italien (Italie)
+  - arabe (Libye)
+  - chinois (Chine)
+  - khmer (Cambodge)
 
 ## Méthodologie
 TODO

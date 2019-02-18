@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
+urls = []
 driver = webdriver.Firefox()
 
 # temps de chargement
@@ -27,28 +28,13 @@ try:
     time.sleep(1)
 
     #envoyer recherche
-    recherche.send_keys(Keys.ENTER);
-    time.sleep(10)
+    recherche.send_keys(Keys.ENTER)
+    time.sleep(5)
 
-#     saisie_arrivee.send_keys("New York City")
-#
-#     # # selection du pays d'arrivee
-#     # usa = driver.find_element_by_css_selector(".fsapp-option-city-name")
-#     # usa.click()
-#     # time.sleep(1)
-#
-#     # lancer la recherche
-#     recherche = driver.find_element_by_css_selector(".gws-flights-form__search-button")
-#     recherche.click()
-#     time.sleep(5)
-#
-#     # afficher les resultats
-#     resultats = driver.find_elements_by_xpath("//div[contains(@class, 'gws-flights-results__collapsed-itinerary gws-flights-results__itinerary')]")
-#     for resultat in resultats:
-#         print("##############")
-#         print(resultat.text)
-#
+    urls = driver.find_elements_by_class_name("gs-title")
+    for url in urls:
+        print(url.get_attribute('href'))
+
 #
 finally:
      driver.quit()
-

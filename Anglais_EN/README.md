@@ -12,6 +12,6 @@ TODO
   - [BBC News](www.bbc.co.uk/search?q=Yellow+vests)
 
 ## Corpus américain
-  - [The Washington Post](www.washingtonpost.com/newssearch/?query=gilets%20jaunes&sort=Date&datefilter=12%20Months]) (centre)
+  - [The Washington Post](www.washingtonpost.com/newssearch/?query=gilets%20jaunes&sort=Date&datefilter=12%20Months) (centre)
   - [CNN](https://us.cnn.com/search/?q=gilets+jaunes)
   - [The Los Angeles Times](https://www.latimes.com/search/?q=yellow+vests)

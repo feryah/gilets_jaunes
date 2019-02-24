@@ -7,3 +7,5 @@
 * même rubrique(`world`/`international`)
 * mots clés : 
     >-黄背心 -黄马甲 (c-à-d : sans "gilets jaunes")
+### TODO :
+* normalisation de textes

@@ -6,10 +6,10 @@
     <language>Chinese(ZH-CN)</language>
     <timeSpan from="2018-11-17" to="2019-02-17"/>
     <sources>
-      <source country="China" site="">XINHUA</source>
-      <source country="China" site="">PEOPLE</source>
-      <source country="China" site="">HUANQIU</source>
-      <source country="China" site="">CHINESE ECONOMY</source>
+      <source country="China" site="http://www.xinhuanet.com/">XINHUA</source>
+      <source country="China" site="http://www.people.cn/">PEOPLE</source>
+      <source country="China" site="http://www.huanqiu.com/">HUANQIU</source>
+      <source country="China" site="http://m.ce.cn/">CHINESE ECONOMY</source>
     </sources>
     <size>
       <nbTexts nb=""/>

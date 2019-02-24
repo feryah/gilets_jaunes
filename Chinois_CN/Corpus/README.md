@@ -8,4 +8,7 @@
 * mots clés : 
     >-黄背心 -黄马甲 (c-à-d : sans "gilets jaunes")
 ### TODO :
-* normalisation de textes
+* equilibrer la taille de corpus
+* filtrer des textes courts/non pertinants
+* normalisation et nettoyage de textes
+* ...

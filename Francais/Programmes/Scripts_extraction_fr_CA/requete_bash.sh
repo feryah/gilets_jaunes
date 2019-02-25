@@ -1,0 +1,3 @@
+#!/bin/bash
+
+counter=0; while [ $counter -lt 300 ]; do lynx -dump -listonly "https://www.google.fr/search?q=%22gilets+jaunes%22+site:https://www.lesoleil.com/+OR+site:https://www.journaldemontreal.com/+OR+site:https://www.lapresse.ca/+OR+site:https://www.journaldequebec.com/+OR+site:https://www.ledevoir.com/&ei=0wVYXLHjJqOxgwejqYOQBQ&start=$counter&sa=N&ved=0ahUKEwjxmKL34aHgAhWj2OAKHaPUAFIQ8NMDCKEB&biw=1366&bih=624" | egrep -v "OR" | egrep "gilet" | sed -E "s/ [0-9][0-9]\. https:\/\/www\.google\.fr\/(url|search)\?q=(related:)?//g" | sed -E "s/\&.+//g" ; sleep 10s; counter=$((counter+10)); done

@@ -22,3 +22,10 @@
 - https://www.dhnet.be/ (orientation politique)  
 - https://www.lalibre.be/ (orientation politique)  
 - https://www.lecho.be/ (orientation politique)
+
+### France :
+- https://www.lemonde.fr/ (centre droit)
+- http://www.lefigaro.fr/ (droite)
+- https://www.liberation.fr/ (gauche)
+- https://www.humanite.fr/ (gauche marquée)
+- https://www.lepoint.fr/ (droite marquée)

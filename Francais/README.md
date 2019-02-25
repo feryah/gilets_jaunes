@@ -1,6 +1,6 @@
 ## Répertoire du corpus du français
 
-### Canada (Québec) :
+### Canada (Québec), 230 articles, environ 140K mots :
 
 - https://www.lesoleil.com/ (orientation politique)  
 - https://www.journaldemontreal.com/ (orientation politique)  
@@ -8,7 +8,7 @@
 - https://www.journaldequebec.com/ (orientation politique)  
 - https://www.ledevoir.com/ (orientation politique)  
 
-### Suisse (romande) :
+### Suisse (romande), 206 articles, environ 125K mots :
 - https://www.letemps.ch/ (orientation politique)  
 - https://www.lematin.ch/ (orientation politique)  
 - https://www.tdg.ch/ (orientation politique)  

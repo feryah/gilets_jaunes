@@ -9,7 +9,7 @@ import re
 
 # Prend en entrée une liste d'URL, renvoie un fichier XML avec pour chaque lien une balise <doc> contenant en métadonnées l'url de la page <doc url="xxx">
 
-path = "fr_CH_links.txt"
+path = "fr_CH_links_contrast.txt"
 out = "out.xml"
 
 # Fonction de téléchargement des liens
@@ -61,8 +61,11 @@ def mainPage_2(mainUrl, out):
 	f.write("<doc url="+ mainUrl +">\n")
 	
 	# récupération des contenus des balises <p>
-	excerpt = mainSoup.find_all('div', attrs={'class':'strong article-header'})[0]
-	chapter = mainSoup.find_all('div', attrs={'class':'article-main-content'})[0]
+	excerpt = []
+	try:
+		excerpt = mainSoup.find_all('div', attrs={'class':'strong article-header'})[0]
+	except:
+		pass
 	if excerpt != []:
 		for paragraph in excerpt.find_all('p'):
 			content = paragraph.get_text()
@@ -73,6 +76,12 @@ def mainPage_2(mainUrl, out):
 			f.write(content)
 			print(mainUrl)
 			print(content)
+			
+	chapter = []
+	try:
+		chapter = mainSoup.find_all('div', attrs={'class':'article-main-content'})[0]
+	except:
+		pass
 	if chapter != []:
 		for paragraph in chapter.find_all('p'):
 			content = paragraph.get_text()

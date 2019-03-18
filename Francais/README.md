@@ -39,3 +39,10 @@
 - Attendre que Boyu fasse un push avant de réorganiser les dossiers et les noms de fichiers
 - Léa : faire corpus de contraste
 - Détailler la méthode employée pour la constitution des corpus
+
+### Analyse du corpus
+
+- Analyse des spécificités des corpus g.j./constrate avec Lexico
+- Analyse des entités nommées avec Spacy et Stanford NER
+- Analyse TF-IDF des textes pour extraire le contenu sémantique de chaque texte
+- Recherche adjectifs coocurrents dans les phrases contenant le terme "g.j."

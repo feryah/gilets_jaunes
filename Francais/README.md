@@ -16,7 +16,7 @@
 - https://www.lqj.ch/ (orientation politique)
 - https://www.lenouvelliste.ch/ (orientation politique)
 
--> corpus de contraste : 
+-> corpus de contraste : 285 articles, environ 166K mots
 
 ### Belgique (francophone, Wallonie) :
 - https://www.lesoir.be/ (payant, non couvert)

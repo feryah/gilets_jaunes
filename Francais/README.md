@@ -1,6 +1,6 @@
-## R�pertoire du corpus du fran�ais
+## Répertoire du corpus du français
 
-### Canada (Qu�bec), 230 articles, environ 140K mots :
+### Canada (Québec), 230 articles, environ 140K mots :
 - https://www.lesoleil.com/ (orientation politique)
 - https://www.journaldemontreal.com/ (orientation politique)
 - https://www.lapresse.ca/ (orientation politique)
@@ -17,15 +17,23 @@
 -> corpus de contraste : 
 
 ### Belgique (francophone, Wallonie) :
-- https://www.lesoir.be/ (orientation politique)
-- https://www.lavenir.net/ (orientation politique)
+- https://www.lesoir.be/ (payant, non couvert)
+- https://www.lavenir.net/ (payant, non couvert)
 - https://www.dhnet.be/ (orientation politique)
 - https://www.lalibre.be/ (orientation politique)
-- https://www.lecho.be/ (orientation politique)
+- https://www.lecho.be/ (payant, non couvert)
 
 ### France :
 - https://www.lemonde.fr/ (centre droit)
 - http://www.lefigaro.fr/ (droite)
 - https://www.liberation.fr/ (gauche)
-- https://www.humanite.fr/ (gauche marqu�e)
-- https://www.lepoint.fr/ (droite marqu�e)
+- https://www.humanite.fr/ (gauche marquée)
+- https://www.lepoint.fr/ (droite marquée)
+
+## TO DO LIST
+
+- Répertorier les éléments à évaluer sur les corpus
+- Fusionner les corpus CA
+- Attendre que Boyu fasse un push avant de réorganiser les dossiers et les noms de fichiers
+- Léa : faire corpus de contraste
+- Détailler la méthode employée pour la constitution des corpus

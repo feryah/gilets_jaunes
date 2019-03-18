@@ -34,9 +34,7 @@
 
 ## TO DO LIST
 
-- Répertorier les éléments à évaluer sur les corpus
-- Fusionner les corpus CA
-- Attendre que Boyu fasse un push avant de réorganiser les dossiers et les noms de fichiers
+- Attendre que Boyu fasse un push avant de réorganiser les dossiers, les noms de fichiers et fusionner les corpus CA
 - Léa : faire corpus de contraste
 - Détailler la méthode employée pour la constitution des corpus
 
@@ -46,4 +44,4 @@
 - Analyse des entités nommées avec Spacy et Stanford NER
 - Analyse TF-IDF des textes pour extraire le contenu sémantique de chaque texte
 - Recherche adjectifs coocurrents dans les phrases contenant le terme "g.j."
-- Voir liste des points du 11-02 : https://semestriel.framapad.org/p/M2_TAL_S%C3%A9mantique_txts_multilingues?fbclid=IwAR2McpQD8SF47TXVHXJogQFlF3g5XzcB3Mlg1anytcm1fdrfI8Strn_4ZUY
+- Voir points proposés le 11-02 : https://semestriel.framapad.org/p/M2_TAL_S%C3%A9mantique_txts_multilingues?fbclid=IwAR2McpQD8SF47TXVHXJogQFlF3g5XzcB3Mlg1anytcm1fdrfI8Strn_4ZUY

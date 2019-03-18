@@ -46,3 +46,4 @@
 - Analyse des entités nommées avec Spacy et Stanford NER
 - Analyse TF-IDF des textes pour extraire le contenu sémantique de chaque texte
 - Recherche adjectifs coocurrents dans les phrases contenant le terme "g.j."
+- Voir liste des points du 11-02 : https://semestriel.framapad.org/p/M2_TAL_S%C3%A9mantique_txts_multilingues?fbclid=IwAR2McpQD8SF47TXVHXJogQFlF3g5XzcB3Mlg1anytcm1fdrfI8Strn_4ZUY

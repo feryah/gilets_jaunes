@@ -6,6 +6,7 @@
 - https://www.lapresse.ca/ (orientation politique)
 - https://www.journaldequebec.com/ (orientation politique)
 - https://www.ledevoir.com/ (orientation politique)
+
 -> corpus de contraste : 274 articles, environ 130K mots
 
 ### Suisse (romande), 206 articles, environ 125K mots :
@@ -14,6 +15,7 @@
 - https://www.tdg.ch/ (orientation politique)
 - https://www.lqj.ch/ (orientation politique)
 - https://www.lenouvelliste.ch/ (orientation politique)
+
 -> corpus de contraste : 
 
 ### Belgique (francophone, Wallonie) :

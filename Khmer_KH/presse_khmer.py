@@ -58,7 +58,7 @@ for link in liste_url:
 
     content = etree.SubElement(article, 'content')
     for each_p in soup3.find_all('p'):
-        contenu += each_p.text
+        contenu = each_p.text
     content.text = contenu
 
     cpt +=1
@@ -73,7 +73,7 @@ for link in liste_url2:
 
     content = etree.SubElement(article, 'content')
     for each_p in soup3.find_all('p'):
-        contenu += each_p.text
+        contenu = each_p.text
     content.text = contenu
 
     cpt +=1

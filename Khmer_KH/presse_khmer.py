@@ -7,7 +7,7 @@ doc = etree.ElementTree(page)
 corpus = etree.SubElement(page, 'corpus')
 headElt = etree.SubElement(corpus, 'header')
 title_head = etree.SubElement(headElt, 'title')
-title_head.text = "Gilets Jaunes dans la Presse Cambodgienne"
+title_head.text = "France dans la Presse Cambodgienne"
 lg_head = etree.SubElement(headElt, 'language')
 lg_head.text = "Khmer(KH)"
 sources = etree.SubElement(headElt, 'sources')
@@ -42,7 +42,6 @@ for sub_heading2 in soup2.find_all('li'):
 
 for sub_heading3 in soup4.find_all("article", {"class": "story"}):
     ajout = "http://vovworld.vn" + sub_heading3.h2.a.attrs.get('href')
-    print(ajout)
     liste_url2.append(ajout)
 
 
@@ -57,8 +56,9 @@ for link in liste_url:
     title.text = soup3.title.string
 
     content = etree.SubElement(article, 'content')
+    contenu = ''
     for each_p in soup3.find_all('p'):
-        contenu = each_p.text
+        contenu += each_p.text
     content.text = contenu
 
     cpt +=1
@@ -69,16 +69,19 @@ for link in liste_url2:
 
     article = etree.SubElement(bodyElt, 'article', id=str(cpt))
     title = etree.SubElement(article, 'title')
-    title.text = soup3.title.string
+    title.text = soup5.title.string
 
+    contenu = ''
     content = etree.SubElement(article, 'content')
-    for each_p in soup3.find_all('p'):
-        contenu = each_p.text
+    for each_p in soup5.find_all('span', {'class': 'text'}):
+        contenu += each_p.text
     content.text = contenu
 
     cpt +=1
 
-outFile = open('presse_khmer.xml', 'wb')
+outFile = open('presse_khmer2.xml', 'wb')
+
+delete = ""
 
 
 doc.write(outFile, xml_declaration=True, encoding='UTF-8', pretty_print=True)

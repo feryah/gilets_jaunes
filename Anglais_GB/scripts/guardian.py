@@ -25,15 +25,22 @@ try:
     recherche = driver.find_element_by_id("gsc-i-id1")
     recherche.click()
     recherche.send_keys("gilets jaunes")
+    time.sleep(3)
+
+    # envoyer recherche
+    recherche.send_keys(Keys.ENTER)
     time.sleep(1)
 
-    #envoyer recherche
-    recherche.send_keys(Keys.ENTER)
-    time.sleep(5)
+    # trouver liens pages suivantes
+    pages = driver.find_elements_by_css_selector(".gsc-cursor-page")
+    for page in pages:
+        urls = driver.find_elements_by_class_name("gs-title")
+        for url in urls:
+            print(url.get_attribute('href'))
 
-    urls = driver.find_elements_by_class_name("gs-title")
-    for url in urls:
-        print(url.get_attribute('href'))
+        page.click()
+        time.sleep(1)
+
 
 #
 finally:

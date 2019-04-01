@@ -41,7 +41,7 @@ MAJ : 01042019
     * Castaner
     * Griveaux
     * Di Maio
-    * toule le monde
+    * tout le monde
 
 * ORG
     * le gauche

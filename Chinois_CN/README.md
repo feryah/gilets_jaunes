@@ -28,7 +28,7 @@ MAJ : 01042019
 **partition : corpus_gilet_jaune et corpus_de_contraste**
 #### spécificités (seuil : 5)
 * PERS
-    * Macro
+    * Macron
     * gilet jaune
     * manifestants
     * Phillips

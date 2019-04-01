@@ -7,7 +7,7 @@
         2019-02-10
 
 """
-import urllib.request as rq
+from urllib import request as rq
 from bs4 import BeautifulSoup
 
 
@@ -18,7 +18,7 @@ def main():
 def xinhua_parser(url):
     content = dict()
     article = rq.urlopen(url).read().decode("UTF-8")
-    page = BeautifulSoup(article, 'html.parser')
+    page = BeautifulSoup(article, 'lxml')
 
     keywords = page.find(attrs={"name": "keywords"})['content'].strip()
     title = page.find('div', class_="h-title").text.strip()

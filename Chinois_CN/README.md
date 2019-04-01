@@ -26,7 +26,8 @@ MAJ : 01042019
 ## Analyse exploratoire
 ### Piste 1
 **partition : corpus_gilet_jaune et corpus_de_contraste**
-#### spécificités (seuil : 5)
+#### spécificités (seuil : 5) (traduction des mots chinois)
+*cf* [gj_constrast_specificite.csv](gj_constrast_specificite.csv)
 * PERS
     * Macron
     * gilet jaune
@@ -44,7 +45,7 @@ MAJ : 01042019
     * tout le monde
 
 * ORG
-    * le gauche
+    * la gauche
     * l'extrême droite
     * La République
     * Assemblée nationale (de la Frace)
